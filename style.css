@@ -1,0 +1,106 @@
+:root{
+  --bg: #f5f7fa;
+  --panel: #ffffff;
+  --panel-2: #f1f3f6;
+  --text: #0b0b0b;
+  --muted: #4b5563;
+  --border: #d1d5db;
+
+  /* Ducks colors – lighter, higher contrast */
+  --orange: #f47a1f;
+  --green: #2aa876;
+  --black: #0b0b0b;
+  --white: #ffffff;
+
+  --easy: #ffffff;
+  --medium: #f47a1f;
+  --hard: #2aa876;
+  --expert: #111827;
+
+  --shadow: 0 6px 18px rgba(0,0,0,.12);
+  --radius: 18px;
+}
+
+body{
+  margin:0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  background: #f5f7fa;
+  color: var(--text);
+}
+
+.header, .status, .board, .reveal{
+  background: #ffffff;
+  border: 1px solid var(--border);
+}
+
+.subtitle, .status-message, .pill-muted{
+  color: var(--muted);
+}
+
+.board{
+  box-shadow: var(--shadow);
+}
+
+.tile{
+  background: #ffffff;
+  color: #0b0b0b;
+  border: 2px solid #e5e7eb;
+  border-radius: 16px;
+  font-weight: 800;
+  letter-spacing: .3px;
+}
+
+.tile:hover{
+  border-color: #cbd5e1;
+}
+
+.tile.selected{
+  background: rgba(244,122,31,.25);
+  border-color: var(--orange);
+}
+
+.tile.locked{
+  cursor: default;
+}
+
+.tile-easy{
+  background: #ffffff;
+  color: #0b0b0b;
+}
+
+.tile-medium{
+  background: #f47a1f;
+  color: #0b0b0b;
+}
+
+.tile-hard{
+  background: #2aa876;
+  color: #ffffff;
+}
+
+.tile-expert{
+  background: #111827;
+  color: #ffffff;
+}
+
+.group-easy{ background: #ffffff; }
+.group-medium{ background: rgba(244,122,31,.18); }
+.group-hard{ background: rgba(42,168,118,.18); }
+.group-expert{ background: #f1f3f6; }
+
+.btn{
+  background: #f9fafb;
+  border: 1px solid #d1d5db;
+  color: #0b0b0b;
+}
+
+.btn-primary{
+  background: linear-gradient(135deg, #f47a1f, #ff9b52);
+  color: #0b0b0b;
+  border-color: #f47a1f;
+}
+
+.logo{
+  background: linear-gradient(135deg, #f47a1f, #ff9b52);
+  color: #0b0b0b;
+}
