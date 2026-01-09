@@ -45,7 +45,7 @@ body{
 .logo{
   width: 44px; height:44px;
   display:grid; place-items:center;
-  border-radius: 14px;
+  border-radius: 18px;
   background: linear-gradient(135deg, var(--orange), #ff9b52);
   color: #0c0c0c;
   font-weight: 900;
@@ -53,9 +53,9 @@ body{
   user-select:none;
 }
 h1{ font-size: 18px; margin:0; letter-spacing: .2px; }
-.subtitle{ margin:2px 0 0; color: var(--muted); font-size: 12px; }
+.subtitle{ margin:2px 0 0; color: var(--muted); font-size: 18px; }
 
-.header-actions{ display:flex; gap:10px; flex-wrap:wrap; }
+.header-actions{ display:flex; gap: 14px; flex-wrap:wrap; }
 
 .container{
   max-width: 980px;
@@ -71,11 +71,11 @@ h1{ font-size: 18px; margin:0; letter-spacing: .2px; }
   display:flex;
   align-items:center;
   justify-content:space-between;
-  gap: 10px;
+  gap: 14px;
   box-shadow: var(--shadow);
 }
 
-.status-left{ display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+.status-left{ display:flex; gap: 14px; align-items:center; flex-wrap:wrap; }
 .status-message{ color: var(--muted); font-size: 13px; }
 
 .pill{
@@ -86,7 +86,7 @@ h1{ font-size: 18px; margin:0; letter-spacing: .2px; }
   border-radius: 999px;
   background: #f3f4f6;
   border: 1px solid #d1d5db;
-  font-size: 12px;
+  font-size: 18px;
   color: var(--text);
 }
 .pill-muted{ color: var(--muted); }
@@ -94,17 +94,17 @@ h1{ font-size: 18px; margin:0; letter-spacing: .2px; }
 .found-groups{
   margin-top: 12px;
   display:grid;
-  gap: 10px;
+  gap: 14px;
 }
 
 .group-card{
   border-radius: var(--radius);
-  padding: 10px 12px;
+  padding: 16px 18px;
   border: 1px solid rgba(255,255,255,.12);
   box-shadow: var(--shadow);
 }
 .group-title{
-  font-weight: 800;
+  font-weight: 900;
   letter-spacing: .2px;
   font-size: 13px;
   margin: 0 0 6px;
@@ -114,7 +114,7 @@ h1{ font-size: 18px; margin:0; letter-spacing: .2px; }
   flex-wrap:wrap;
   gap: 8px;
   color: rgba(255,255,255,.92);
-  font-size: 12px;
+  font-size: 18px;
 }
 .group-chip{
   padding: 6px 8px;
@@ -127,7 +127,7 @@ h1{ font-size: 18px; margin:0; letter-spacing: .2px; }
 .board{
   display:grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 10px;
+  gap: 14px;
   background: #ffffff;
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -137,15 +137,15 @@ h1{ font-size: 18px; margin:0; letter-spacing: .2px; }
 
 \.tile{
   border-radius: 16px;
-  padding: 14px 10px;
-  min-height: 56px;
+  padding: 22px 14px;
+  min-height: 92px;
   display:flex;
   align-items:center;
   justify-content:center;
   text-align:center;
-  font-weight: 800;
-  letter-spacing:.35px;
-  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: .4px;
+  font-size: 18px;
   line-height: 1.2;
   cursor:pointer;
   user-select:none;
@@ -166,17 +166,17 @@ h1{ font-size: 18px; margin:0; letter-spacing: .2px; }
 .controls{
   margin-top: 12px;
   display:flex;
-  gap: 10px;
+  gap: 14px;
   flex-wrap:wrap;
 }
 
 .btn{
-  padding: 10px 12px;
-  border-radius: 14px;
+  padding: 16px 18px;
+  border-radius: 18px;
   border: 1px solid #d1d5db;
   background: #f9fafb;
   color: #0b0b0b;
-  font-weight: 800;
+  font-weight: 900;
   letter-spacing: .2px;
   cursor: pointer;
 }
@@ -204,7 +204,7 @@ h1{ font-size: 18px; margin:0; letter-spacing: .2px; }
 
 .solution{
   display:grid;
-  gap: 10px;
+  gap: 14px;
   margin-top: 10px;
 }
 
@@ -237,15 +237,15 @@ h1{ font-size: 18px; margin:0; letter-spacing: .2px; }
   .board{ gap: 8px; padding: 10px; }
   \.tile{
   border-radius: 16px;
-  padding: 14px 10px;
-  min-height: 56px;
+  padding: 22px 14px;
+  min-height: 92px;
   display:flex;
   align-items:center;
   justify-content:center;
   text-align:center;
-  font-weight: 800;
-  letter-spacing:.35px;
-  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: .4px;
+  font-size: 18px;
   line-height: 1.2;
   cursor:pointer;
   user-select:none;
